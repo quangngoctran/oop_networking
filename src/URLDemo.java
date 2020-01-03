@@ -3,7 +3,8 @@ import java.net.*;
 public class URLDemo {
     public static void main(String[] args) {
         try {
-            URL url = new URL("https://www.google.com/search?q=javatpoint&oq=javatpoint&sourceid=chrome&ie=UTF-8");
+            URL url = new URL("https://www.javatpoint.com/java-tutorial");
+//            URL url = new URL("https://www.google.com/search?q=javatpoint&oq=javatpoint&sourceid=chrome&ie=UTF-8");
 
             System.out.println("Protocol: " + url.getProtocol());
             System.out.println("Host Name: " + url.getHost());
