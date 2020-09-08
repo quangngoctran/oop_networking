@@ -10,6 +10,7 @@ class MyClientDemo {
 
         String str = "", str2 = "";
         while (!str.equals("stop")) {
+            System.out.print("Client: ");
             str = br.readLine();
             dout.writeUTF(str);
             dout.flush();
